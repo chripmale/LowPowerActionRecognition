@@ -11,6 +11,15 @@ As a starting point, create a basic classifier using either the MNIST dataset or
               DVS data ---- classifier friendly format data ---- DVS classifier
 ```
 
+Sanity checks are also essential. At more or less every stage we want to understand if our computations are correct. for example a rough sanity check for the softmax classifier loss is to compare it to -log(0.1). Obviously this example doesn't really apply to what will become our full Neural Network but you get the gist.
 
 This will also hold how the CCN is integrated in the overall system, benefits of using one classifier over the other and most importantly, benchmarks.
 Don't be scared to send personal emails to Yiannis asking questions and what not to gather a better understanding of what the expectations are here.
+
+
+Different Steps that we have in mind:
+1) linear classifier for starters
+2) personal NN
+3) SOA CNN
+4) SOA Spiking neural network
+--> Each neural net will obviously produce different results depending on hyperparameters so we will have to report all of the difference with regards to that and related results/Benchmarking and comparisons.
