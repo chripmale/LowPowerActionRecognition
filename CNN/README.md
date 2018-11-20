@@ -23,3 +23,8 @@ Different Steps that we have in mind:
 3) SOA CNN
 4) SOA Spiking neural network
 --> Each neural net will obviously produce different results depending on hyperparameters so we will have to report all of the difference with regards to that and related results/Benchmarking and comparisons.
+
+
+
+RESEARCH PAPERS USED:
+https://www.frontiersin.org/articles/10.3389/fnins.2015.00437/full (some notes taken on evernote)
